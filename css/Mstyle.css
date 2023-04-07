@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.menu {
+    padding-bottom: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+
+
+
+}
+
+.rover {
+    background-image: url(../images/marsBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+
+}
+
+.rover-hover {}
+
+.rover-hover img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 1s;
+
+
+}
+
+.rover-hover img:hover {
+    transform: skewX(-20deg);
+}
+
+
+
+.rover-hover h3 {
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    font-size: 22px;
+    color: antiquewhite;
+    text-shadow: 2px 5px 2px blue;
+
+
+}
+
+.phobos-logo img {
+    transform: translate(20%, -10%);
+    animation: 20s cresent linear infinite alternate;
+
+
+}
+
+@keyframes rounding {
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes cresent {
+    0% {
+        transform: translate(-120%, 0%);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(120%, -0%);
+        opacity: 0.8;
+    }

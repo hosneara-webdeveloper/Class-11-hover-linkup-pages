@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 10px 0;
+
+}
+
+
+.Solar-pannel {
+    padding: 20px 0;
+    background-image: url(../images/solar-systemLogojpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.container {
+    width: 90%;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+.jupi-style1 {
+    width: 300px;
+    height: 300px;
+    margin: 200px auto 200px;
+    background-color: aqua;
+    box-shadow: 15px -15px 10px #040937;
+    transition: 2s;
+
+
+}
+
+.jupi-style1:hover {
+    background-color: chartreuse;
+
+}
+
+.jupi-style1 h1 {
+    color: red;
+    position: relative;
+    transition: 4s;
+
+
+}
+
+.jupi-style1 h1 {
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.jupi-style1 h1:hover {
+    color: blueviolet;
+    transform: rotate(90deg);
+
+}

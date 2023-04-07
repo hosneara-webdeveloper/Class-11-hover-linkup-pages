@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.Solar-pannel {
+    padding: 20px 0;
+    background-color: black;
+
+
+}
+
+/* rover start */
+.rover {
+    background: url(../images/Marseplannet.jpg);
+}
+
+.rover-hover {
+    background-color: blue;
+}
+
+h1 {
+    color: chartreuse;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.Solar-pannel {
+    padding: 20px 0;
+    background: url('../images/StarsNew.jpg');
+
+
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+
+
+}
+
+.nep-style1 {
+
+    height: 250px;
+    background: linear-gradient(blue, yellow, green);
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: -15px -15px 10px rgb(0, 255, 183);
+}
+
+.nep-style2 {
+    height: 250px;
+    background: linear-gradient(to left, blue, yellow, green);
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: -15px 15px 10px violet;
+
+}
